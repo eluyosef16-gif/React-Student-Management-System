@@ -1,16 +1,55 @@
-# React + Vite
+🎓 Student Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **Student Management System** built with React.  
+This project helps manage students and courses through a clean and easy-to-use dashboard.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🔐 Admin Login & Logout
+- 📊 Dashboard with system overview
+- 👨‍🎓 Add, edit, delete, search, and filter students
+- 📚 Add, edit, delete, and search courses
+- ⚙️ Settings page
+- 🛡️ Protected routes
+- 🔄 API integration using JSON Server
+- 📱 Responsive and modern interface
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- React Router
+- JavaScript
+- CSS
+- JSON Server
+- Vite
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── components/
+├── pages/
+├── services/
+├── hooks/
+├── App.jsx
+├── main.jsx
+└── index.css
+🚀 How to Run
+1. Install dependencies
+npm install
+2. Start the API server
+npm run server
+3. Start the React application
+
+Open another terminal and run:
+
+npm run dev
+
+Then open the local URL shown by Vite.
+
+🔑 Login
+Username: admin
+Password: 1234
+🎯 Project Goal
+
+I built this project to practice React concepts such as components, props, state, forms, routing, API requests, custom hooks, and CRUD operations.
