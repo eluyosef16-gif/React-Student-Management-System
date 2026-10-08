@@ -1,0 +1,52 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Nardos",
+      "course": "React Development"
+    },
+    {
+      "id": "2",
+      "name": "Kidus",
+      "course": "Web Development"
+    },
+    {
+      "id": "3",
+      "name": "Hana",
+      "course": "Full Stack Development"
+    },
+    {
+      "id": "4",
+      "name": "Leoul",
+      "course": "Software Engineering"
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "name": "React Development",
+      "instructor": "Yared Kebede"
+    },
+    {
+      "id": "2",
+      "name": "Web Development",
+      "instructor": "Abebe Bekele"
+    },
+    {
+      "id": "3",
+      "name": "Full Stack Development",
+      "instructor": "Sara Ahmed"
+    },
+    {
+      "id": "4",
+      "name": "Software Engineering",
+      "instructor": "Yared Kebede"
+    },
+    {
+      "name": "Artificial Intellegence",
+      "instructor": "Michael Yohannes",
+      "id": "2UDvKi-QEhU"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
